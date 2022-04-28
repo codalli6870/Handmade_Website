@@ -5,18 +5,40 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Handmade Website</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+
+<style>
+    .pushcorner {
+        width: 500px;
+        height: 500px;
+        background: url("diagonal2.png") no-repeat;
+      
+    }
+
+    .pushcorner:hover {
+        background: url("pushcorner.png") no-repeat;
+    }
+
+    body {
+            text-align: center;
+    }
+</style>
 </head>
 <body>
-
+<header class="top-header">
+	<a href="step5.html">
+		<p class="step-number">←</p>
+	</a>
+</header>
 	<div class="paper"> 
-		<img src="diagonal2.png" alt="diagonal2">
+		<div class="pushcorner"></div>
 	</div>
 
 <section class="choices">
-	<a href="step7.html">
-      <button class="foldtop-button">Fold from the top down</button>
-    </a>
-    <p class="paragraphs"> Bring the top point down to the bottom, while also folding the left and right corners down into the center.</p>
+	<div class = "buttoncenter">
+		<a href="step7.html">
+	      <button class="foldtop-button">Bring the top point down to the bottom, while also folding the left and right corners down into the center</button>
+	    </a>
+	</div>
 </section>
 
 </body>

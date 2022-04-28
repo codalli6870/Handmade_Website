@@ -5,17 +5,42 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Handmade Website</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+
+<style>
+    .foldbottomright {
+        width: 300px;
+        height: 300px;
+        background: url("diagonal1.png") no-repeat;
+      
+    }
+
+    .foldbottomright:hover {
+        background: url("foldbottomright.png") no-repeat;
+    }
+
+    body {
+            text-align: center;
+    }
+</style>
 </head>
 <body>
+<header class="top-header">
+	<a href="step2.html">
+		<p class="step-number">←</p>
+	</a>
+</header>
 
 	<div class="paper"> 
-		<img src="diagonal1.png" alt="diagonal1">
+		<div class="foldbottomright"></div>
 	</div>
 
+
 <section class="choices">
-	<a href="step6.html">
-      <button class="foldtop-button">Fold diagonally towards the bottom right</button>
-    </a>
+	<div class = "buttoncenter">
+		<a href="step6.html">
+	      <button class="foldtop-button">Fold diagonally towards the bottom right then unfold</button>
+	    </a>
+	</div>
 </section>
 
 </body>

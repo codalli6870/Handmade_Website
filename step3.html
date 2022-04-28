@@ -5,17 +5,41 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Handmade Website</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+<style>
+    .foldvert {
+        width: 300px;
+        height: 300px;
+        background: url("paperfoldeddown.png") no-repeat;
+      
+    }
+    
+    .foldvert:hover {
+        background: url("foldvert.png") no-repeat;
+    }
+
+    body {
+            text-align: center;
+    }
+</style>
 </head>
+
 <body>
+<header class="top-header">
+	<a href="step2.html">
+		<p class="step-number">←</p>
+	</a>
+</header>
 
 	<div class="paper"> 
-		<img src="paperfoldeddown.png" alt="folddownpaper">
+		<div class="foldvert"></div>
 	</div>
 
 <section class="choices">
-	<a href="step4.html">
-      <button class="foldtop-button">Fold vertically</button>
-    </a>
+	<div class = "buttoncenter">
+		<a href="step4.html">
+	      <button class="foldtop-button">Fold vertically then unfold</button>
+	    </a>
+	</div>
 </section>
 
 </body>
